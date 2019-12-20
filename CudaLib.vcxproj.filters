@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{2cda384f-6099-4c49-ad48-e15bcfc68455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{66d83eca-5dbf-454c-bd9b-9a358dec7a58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="device_info.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cuda_check.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="device_info.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="dice.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="dp_memory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pinned_memory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="math_extended.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="timed_run.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_group.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="get_random.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
